@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/easybank-landing-page-3D7K7CiE_)
-- Live Site URL: [Add live site URL here](https://felipesoliver.github.io/easybank)
+- Solution URL: [Easybank Solution](https://www.frontendmentor.io/solutions/easybank-landing-page-3D7K7CiE_)
+- Live Site URL: [Easybank Live Site](https://felipesoliver.github.io/easybank)
 
 ## My process
 
