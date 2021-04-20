@@ -111,7 +111,7 @@
 .page_links_list {
     opacity        : 0;
     position       : fixed;
-    top            : -100%;
+    top            : 100%;
     left           : 50%;
     width          : 90%;
     height         : 300px;
@@ -126,7 +126,7 @@
 
 .page_links_list.active {
     opacity  : 1;
-    top            : 100px;
+    top: 100px;
 }
 
 .page_list_items {
