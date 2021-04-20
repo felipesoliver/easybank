@@ -1,0 +1,56 @@
+.banner,
+.banner_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner {
+    margin-top: 80px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+}
+
+.banner_text {
+    width: 80%;
+    height: 80%;
+    align-items: flex-start;
+}
+
+.banner_text h1 {
+    width: 50%;
+    font-size: 56px;
+    font-weight: 400;
+    color: #444444;
+}
+
+.banner_text span {
+    margin-top: 20px;
+    width: 450px;
+    color: #a5a5a5;
+    line-height: 26px;
+}
+
+.banner .invite_btn {
+    margin-top: 30px;
+}
+
+.banner_desktop_bg {
+    position: absolute;
+    bottom: -80px;
+    right: -260px;
+    width: 70%;
+}
+
+.banner_mobile_bg {
+    display: none;
+}
+
+.banner_mockups {
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 46%;
+}

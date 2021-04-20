@@ -1,0 +1,45 @@
+/* Font Family */
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* Default Tags */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1440px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    background: #fafafa;
+    animation: fadein .6s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0ms forwards;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+    z-index: 200;
+    transition: all .4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+header.faded {
+    top: -80px;
+}
+
+main {
+    overflow: hidden;
+}
